@@ -1,0 +1,85 @@
+body {
+    margin: 0px;
+    font-family: Consolas, Courier;
+    background-image: url("assets/topography.png");
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    padding: 14px 16px;
+}
+
+.topnav a {
+    color: #ff0099;
+    padding-right: 16px;
+    padding-left: 16px;
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.topnav img {
+    float: left;
+    padding-left: 10%;
+}
+
+.topnav .links {
+    float: right;
+    padding-right: 10%;
+}
+
+.introduction {
+    padding-top: 7%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
+
+.introduction .name {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.8em;
+    margin: 0px 0px 35px 0px;
+}
+
+small {
+    color: #ff0099;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Roboto Slab', serif;
+}
+
+.separator {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    margin: 0px;
+}
+
+.articles .title {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin: 0px 0px 35px 0px;
+}
+
+.articles {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
+
+.articles p {
+    font-size: smaller;
+}
+
+h1 {
+    margin: 0px;
+}
+
+article {
+    padding-bottom: 3%;
+}
